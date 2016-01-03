@@ -1,25 +1,101 @@
+<!DOCTYPE html>
 <html>
+
   <head>
-    <title>Sample "Hello, World" Application</title>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="NASA Rocket Science : ">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+
+    <title>NASA Rocket Science</title>
   </head>
-  <body bgcolor=white>
 
-    <table border="0" cellpadding="10">
-      <tr>
-        <td>
-        </td>
-        <td>
-          <h1>Sample "Hello, World" Application</h1>
-        </td>
-      </tr>
-    </table>
+  <body>
 
-    <p>This is the home page for the HelloWorld Web application. </p>
-    <p>To prove that they work, you can execute either of the following links:
-    <ul>
-      <li>To a <a href="hello.jsp">JSP page</a>.
-      <li>To a <a href="hello">servlet</a>.
-    </ul>
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+
+        <header class="navbar navbar-inverse navbar-fixed-top bs-docs-nav" role="banner">
+  <div class="container">
+    <div class="navbar-header">
+      <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+        <a href="" class="navbar-brand" id="project_title">NASA Rocket Science</a>
+    </div>
+    <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+      <ul class="nav navbar-nav">
+        <li>
+          <a href="#about">About</a>
+        </li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+          <a href="#help">Help</a>
+        </li>
+      </ul>
+    </nav>
+ </div>
+</header>
+      </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+          <div section id="start">
+        <h1>NASA Sounding Rocket Program</h1>
+        <p>What are sounding rockets? Why do we fly them? Who uses them? Unique features of Sounding Rockets. Where at NASA are sounding rockets built and managed? Benefits of Sounding Rockets to NASA: Science, Technology, and Education. NASA Science Disciplines that Utilize Sounding Rockets: Astrophysics, Planetary Physics, Solar Physics, Mission to Planet Earth, Microgravity, Special Projects, Magnetospheric, Ionospheric, Thermospheric, and Mesospheric Physics.</p>
+        <p><a class="btn btn-primary btn-lg" href="#about" role="button">Learn more &raquo;</a></p>
+          </div>
+          <div id="about">
+          <h2>Overview</h2>
+                    <p>Unique Opportunities for Scientific Research. Sounding rockets carry scientific instruments into space along parabolic trajectories, providing nearly vertical traversals along their upleg and downleg, while appearing to "hover" near their apogee location. Whereas the overall time in space is brief (typically 5-20 minutes), for a well-placed scientific experiment launched into a geophysical phenomena of interest, the short time and low vehicle speeds are more than adequate (in some cases they are ideal) to carry out a successful scientific experiment. Furthermore, there are some important regions of space that are too low to be sampled by satellites (i.e., the lower ionosphere/thermosphere and mesosphere below 120 km altitude) and thus sounding rockets provide the only platforms that can carry out direct in-situ measurements in these regions. Astronomy, solar, and planetary science missions include sophisticated telescopes with optional joy-stick operated, sub-arc-second pointing for >5 minute continuous observations of astronomical objects, including those too close to the sun for Hubble or EUVE observations. Microgravity missions are carried out on high altitude, free-fall parabolic trajectories which provide ideal microgravity environments without the vibrations frequently encountered on human-tendered platforms.</p>
+          </div>
+          
+          <div id="map"><h2>Launch Ranges</h2>
+        <iframe src="https://www.google.com/maps/d/embed?mid=zKxor1nYY_5M.kwxe5HjimQZc" width="100%" height="200%"></iframe></div>
+          <div id="rocket_manual">
+        <h2>Sounding Rocket Users Manual</h2>
+        <iframe src="http://docs.google.com/gview?url=http://sites.wff.nasa.gov/code810/files/SRHB.pdf&embedded=true" style="width:600px; height:500px;" frameborder="0"></iframe>
+          </div>
+        </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
+          <li>NASA Official: Dr. Robert Pfaff</li>
+              <li>Curator: C. Alex Young</li>
+              <li>>Privacy Policies & Important Notices</li>
+              <li>>Contact Us</li>
+              </ul>
+              <p>Designed and built with Bootstrap</p>
+      </footer>
+    </div>
+
+              <script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+          </script>
+          <script type="text/javascript">
+            try {
+              var pageTracker = _gat._getTracker("UA-71888797-1");
+            pageTracker._trackPageview();
+            } catch(err) {}
+          </script>
+
 
   </body>
 </html>
