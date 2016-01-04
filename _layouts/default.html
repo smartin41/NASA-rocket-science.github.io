@@ -29,6 +29,14 @@
         </section>
                 {{ content }}
 
+          <ul>
+{% for launch in site.data.launch_data %}
+  <li>
+      {{ launch.ID }}
+  </li>
+{% endfor %}
+</ul>
+          
     </div>
 
     <footer class="container" role="contentinfo">
