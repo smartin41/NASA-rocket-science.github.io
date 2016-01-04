@@ -1,0 +1,15 @@
+---
+layout: default
+title: SRWG
+base_url: "./"
+---
+<h1>The Sounding Rocket Working Group</h1>
+<p>The purpose of the Sounding Rocket Working Group (SRWG) is to support the use of sounding rockets
+as a tool for scientific investigation</p>
+
+<h2>Members</h2>
+<ul>
+{% for member in site.data.srwg_members %}
+<li><a href="{{ member.url }}">{{ member.first }} {{ member.last }}</a> ({{ member.institution }})</li>
+{% endfor %}
+</ul>

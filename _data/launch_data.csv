@@ -1,4 +1,4 @@
-ID,Science Area,PI Name,PI Institution,Mission Name,Launch Site,Launch Date,Launch Year,Apogee (km),Vehicle,Impact Range (km)
+ID,Science,PI,Institution,Name,LaunchSite,Date,Year,Apogee,Vehicle,Impact
 12.062,GT,Krause,NASA/Wallops Flight Facility,,WSMR,1/20/2005,2005,99,NIKE (3 FIN) ORION,76.5
 40.017,UE,Lynch,Dartmouth University,CASCADES,PFRR,3/6/2005,2005,29.5,BLACK BRANT XII,21.9
 30.059,UE,Lynch,Dartmouth University,Dust,PFRR,3/14/2005,2005,99.9,IMPROVED ORION (4 FIN) BOAT TAIL,52.4

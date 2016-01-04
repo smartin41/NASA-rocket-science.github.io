@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -8,14 +9,16 @@
   <body>
     <!-- Page content of course! -->
 
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-          <div section id="start">
-                {{ content }}
-    </div>
-        </section>
-      </div>
+      <div id="main_content_wrap" class="outer">
 
+
+<div class="col-md-9" role="main">
+Posted on <span class="date">{{ page.date | date: "%-d %B %Y" }}</span> 
+by <span class="author">{{ page.author }}</span><br><br>
+{{ content }}
+</div>
+          
+          
     <footer class="container" role="contentinfo">
     {% include footer.html %}
     </footer>

@@ -1,0 +1,17 @@
+---
+layout: default
+title: NASA Rocket Science
+base_url: "./"
+---
+<h1>Launches</h1>
+<table class="table table-striped table-condensed">
+{% for launch in site.data.launch_data %}
+<tr>
+    <td>{{ launch.Date }}</td>
+    <td>{{ launch.ID }}</td>
+    <td>{{ launch.PI }}</td>
+    <td>{{ launch.Institution }}</td>
+    <td>{{ launch.Name }}</td>
+</tr>
+{% endfor %}
+</table>
