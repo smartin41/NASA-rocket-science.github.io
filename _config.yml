@@ -1,8 +1,30 @@
 name: "NASA Rocket Science"
 description: ""
 
-url: "http://nasa-rocket-science.github.io/"
-#url: "http://localhost:4000/"
+# Themes are encouraged to use these universal variables 
+# so be sure to set them if your theme uses them.
+#
+title : Jekyll Bootstrap
+tagline: Site Tagline
+author :
+  name : Name Lastname
+  email : blah@email.test
+  github : username
+  twitter : username
+  feedburner : feedname
+
+# The production_url is only used when full-domain names are needed
+# such as sitemap.txt 
+# Most places will/should use BASE_PATH to make the urls
+#
+# If you have set a CNAME (pages.github.com) set your custom domain here.
+# Else if you are pushing to username.github.io, replace with your username.
+# Finally if you are pushing to a GitHub project page, include the project name at the end.
+#
+production_url : http://username.github.io
+
+#url: "http://nasa-rocket-science.github.io/"
+url: "http://localhost:4000/"
 
 #paginate: 5
 #paginate_path: "blog/page:num"
@@ -11,7 +33,11 @@ timezone: "America/New_York"
 exclude:          [".editorconfig", ".gitignore", "bower.json", "composer.json", "CONTRIBUTING.md", "CNAME", "LICENSE", "Gruntfile.js", "package.json", "node_modules", "README.md", "less"]
 
 markdown: rdiscount
-permalink: pretty
+
+# This is the default format. 
+# For more see: http://jekyllrb.com/docs/permalinks/
+permalink: /:categories/:year/:month/:day/:title 
+
 relative_permalinks: true
 
 highlighter: pygments

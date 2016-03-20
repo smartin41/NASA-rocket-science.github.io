@@ -1,32 +1,18 @@
-  <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-
-        <header class="navbar navbar-inverse navbar-fixed-top bs-docs-nav" role="banner">
-  <div class="container">
-    <div class="navbar-header">
-      <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-        <a href="{{ site.url }}" class="navbar-brand" id="project_title">NASA Rocket Science</a>
-    </div>
-    <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
-      <ul class="nav navbar-nav">
-          <li><a href="{{ site.url }}about">About</a></li>
-          <li><a href="{{ site.url }}learning">Learning Center</a></li>
-          <li><a href="{{ site.url }}news">News</a></li>
-          <li><a href="{{ site.url }}launches">Launches</a></li>
-          <li><a href="{{ site.url }}srwg">SRWG</a></li>
-        </li>
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-        <li>
-          <a href="#help">Help</a>
-        </li>
-      </ul>
+<div class="clearfix">
+    <button class="navbar-toggler pull-xs-right hidden-sm-up" type="button" data-toggle="collapse" data-target="#bd-main-nav">
+      &#9776;
+    </button>
+    <a class="navbar-brand hidden-sm-up" href="/">
+      NASA Rocket Science
+    </a>
+  </div>
+  <div class="collapse navbar-toggleable-xs" id="bd-main-nav">
+    <nav class="nav navbar-nav">
+      <a class="nav-item nav-link " href="/">NASA Rocket Science</a>
+      <a class="nav-item nav-link " href="{{ site.url }}about">About</a>
+      <a class="nav-item nav-link active" href="{{ site.url }}/learning/">Learning Center</a>
+      <a class="nav-item nav-link" href="{{ site.url }}/news/">News</a>
+      <a class="nav-item nav-link" href="{{ site.url }}/launches/">Launches</a>
+      <a class="nav-item nav-link" href="{{ site.url }}/srwg/">SRWG</a>
     </nav>
- </div>
-</header>
-</div>
+  </div>
