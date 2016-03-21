@@ -38,8 +38,6 @@ markdown: rdiscount
 # For more see: http://jekyllrb.com/docs/permalinks/
 permalink: /:categories/:year/:month/:day/:title 
 
-relative_permalinks: true
-
 highlighter: pygments
 
 # Custom vars
