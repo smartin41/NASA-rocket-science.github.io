@@ -32,7 +32,7 @@ timezone: "America/New_York"
 
 exclude:          [".editorconfig", ".gitignore", "bower.json", "composer.json", "CONTRIBUTING.md", "CNAME", "LICENSE", "Gruntfile.js", "package.json", "node_modules", "README.md", "less"]
 
-markdown: rdiscount
+markdown: kramdown
 
 # This is the default format. 
 # For more see: http://jekyllrb.com/docs/permalinks/
