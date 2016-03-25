@@ -45,5 +45,5 @@ highlighter: rouge
 #current_version:  1.0
 #repo:             https://github.com/sunpy/sunpy
 #install_instructions: http://docs.sunpy.org/en/stable/guide/installation/
-linkref: http://smartin41.github.io/NASA-rocket-science.github.io
+linkref: "http://smartin41.github.io/NASA-rocket-science.github.io"
 
