@@ -1,0 +1,36 @@
+---
+layout: default
+title: NASA Rocket Science
+base_url: "./"
+---
+<h1>Phd Listing (sorted by university)</h1>
+<table class="table table-striped table-condensed">
+<tr><b>
+    <td>Name</td>
+    <td>Year</td>
+    <td>University</td>
+    <td>Advisor</td>
+    <td>Program/Project</td>
+    <td>Rocket1</td>
+    <td>Rocket2</td>
+    <td>Rocket3</td>
+    <td>Rocket4</td>
+    <td>Rocket5</td>
+</tr></b>
+{% for phduniv in site.data.phd_university %}
+<tr>
+    <td>{{ phduniv.Name }}</td>
+    <td>{{ phduniv.Year }}</td>
+    <td>{{ phduniv.University }}</td>
+    <td>{{ phduniv.Advisor }}</td>
+    <td>{{ phduniv.Program }}</td>
+    <td>{{ phduniv.Rocket1 }}</td>
+    <td>{{ phduniv.Rocket2 }}</td>
+    <td>{{ phduniv.Rocket3 }}</td>
+    <td>{{ phduniv.Rocket4 }}</td>
+    <td>{{ phduniv.Rocket5 }}</td>
+</tr>
+{% endfor %}
+
+
+</table>
