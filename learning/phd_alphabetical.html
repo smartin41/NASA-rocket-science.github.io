@@ -17,11 +17,7 @@ base_url: "./"
     <td>Rocket4</td>
     <td>Rocket5</td>
 </tr></b>
-{% assign filename = 'http://smartin41.github.io/NASA-rocket-science.github.io/data/phd_alphabetical.csv' %}
-<!-- 
-{% for phdalpha in site.data.phd_alphabetical %}<tr>
- -->
-{% for phdalpha in filename %}<tr>
+{% for phdalpha in site.data.phd_alphabetical %}
 <tr>
     <td>{{ phdalpha.Name }}</td>
     <td>{{ phdalpha.Year }}</td>
