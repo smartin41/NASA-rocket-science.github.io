@@ -50,6 +50,6 @@ base_url: "./"
 <h2>Members</h2>
 <ul>
 {% for member in site.data.srwg_members %}
-<li><a href="{{ member.url }}">{{ member.first }} {{ member.last }}</a> ({{ member.institution }})</li>
+<li>{{ member.first }} {{ member.last }} ({{ member.institution }}), {{ member.role}}</li>
 {% endfor %}
 </ul>

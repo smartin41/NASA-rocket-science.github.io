@@ -1,4 +1,13 @@
-first,last,institution,role,url
-Robert,Pfaff,GSFC,Project Scientist,http://science.gsfc.nasa.gov/sed/bio/robert.f.pfaff
-John,Smith,Institude,Member,http://science.gsfc.nasa.gov/sed/bio/robert.f.pfaff
-Dave,David,UofC,Member,http://science.gsfc.nasa.gov/sed/bio/robert.f.pfaff
+First,Last,Institution,Role,URL
+Robert,Pfaff,NASA/GSFC,Chair,
+Scott,Porter,NASA/GSFC,Deputy Chair,
+Matthew,Beasley,"Planetary Resources, Inc.",Member,
+James,Clemmons,Aerospace Corp.,Member,
+Richard,Collins,Univ. of Alaska,Member,
+Enectali,Figueroa-Feliciano,MIT,Member,
+Kevin,France,Univ. of Colorado,Member,
+David ,Hysell,Cornell Univ.,Member,
+Charles,Kankelborg,Montana State Univ.,Member,
+Craig,Kletzing,Univ. of Iowa,Member,
+Ken ,Kobayashi,NASA/MSFC,Member,
+Marilia,Samara,NASA/GSFC,Member,
