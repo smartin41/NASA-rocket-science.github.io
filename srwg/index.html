@@ -6,7 +6,7 @@ base_url: "./"
 
 {% for meeting in site.data.srwg_meetings %}
 <div class="btn-group">	
-	<button type="button" class="btn-sm btn-primary dropdown-toggle" data-toggle="dropdown">
+	<button type="button" class="btn-sm btn-primary dropdown-toggle" data-toggle="dropdown"><font face="Courier">
 	{{ meeting.date }} <span class="caret"></span>
 	</button>
 	<ul class="dropdown-menu">
@@ -14,6 +14,7 @@ base_url: "./"
 		<li><a href="{{ site.linkref }}/_data/{{ meeting.ffile }}">Findings</a></li>
 		<li><a href="{{ site.linkref }}/_data/{{ meeting.pfile }}">Presentations</a></li>
 	</ul>
+	</font>
 </div>
 {% endfor %}
 
