@@ -11,7 +11,7 @@ base_url: "./"
     <div class="panel-heading">
       <h2 class="panel-title">
             <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
-              Past Meeting Agenda, Findings, and Presentations
+              Past Meeting Agenda and Findings
             </a>
           </h2>
     </div>
@@ -24,8 +24,7 @@ base_url: "./"
 	</button>
 	<ul class="dropdown-menu">
 		<li><a href="srwg_agendas/{{ meeting.afile }}">Agenda</a></li>
-		<li><a href="{{ site.linkref }}/_data/srwg_meetings/{{ meeting.ffile }}">Findings</a></li>
-		<li><a href="{{ site.linkref }}/_data/srwg_meetings/{{ meeting.pfile }}">Presentations</a></li>
+		<li><a href="srwg_findings/{{ meeting.ffile }}">Findings</a></li>
 	</ul>
 </div>
 {% endfor %}
