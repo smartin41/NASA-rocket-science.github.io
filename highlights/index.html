@@ -1,15 +1,15 @@
 ---
 layout: default
-title: News
-slug: news
+title: Highlights
+slug: highlights
 base_url: "../"
 ---
 <!-- This loops through the paginated posts -->
 {% for post in paginator.posts %}
   <h1>{{ post.title }}</h1>
   <p class="author">
-    Posted on <span class="date">{{ post.date | date: "%-d %B %Y" }}</span> 
-    by <span class="author">{{ post.author }}</span> 
+    Posted on <span class="date">{{ post.date | date: "%-d %B %Y" }}</span>
+    by <span class="author">{{ post.author }}</span>
   </p>
   <div class="content">
     {{ post.content }}

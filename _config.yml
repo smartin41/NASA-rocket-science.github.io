@@ -1,7 +1,7 @@
 name: "NASA Rocket Science"
 description: ""
 
-# Themes are encouraged to use these universal variables 
+# Themes are encouraged to use these universal variables
 # so be sure to set them if your theme uses them.
 #
 title : Jekyll Bootstrap
@@ -14,7 +14,7 @@ author :
   feedburner : feedname
 
 # The production_url is only used when full-domain names are needed
-# such as sitemap.txt 
+# such as sitemap.txt
 # Most places will/should use BASE_PATH to make the urls
 #
 # If you have set a CNAME (pages.github.com) set your custom domain here.
@@ -28,16 +28,16 @@ url: "http://nasa-rocket-science.github.io/"
 #url: "http://localhost:4000/"
 
 paginate: 5
-paginate_path: "news/page:num"
+paginate_path: "highlights/page:num"
 timezone: "America/New_York"
 
 exclude:          [".editorconfig", ".gitignore", "bower.json", "composer.json", "CONTRIBUTING.md", "CNAME", "LICENSE", "Gruntfile.js", "package.json", "node_modules", "README.md", "less"]
 
 markdown: kramdown
 
-# This is the default format. 
+# This is the default format.
 # For more see: http://jekyllrb.com/docs/permalinks/
-permalink: /:categories/:year/:month/:day/:title 
+permalink: /:categories/:year/:month/:day/:title
 
 highlighter: rouge
 
@@ -47,4 +47,3 @@ highlighter: rouge
 #install_instructions: http://docs.sunpy.org/en/stable/guide/installation/
 linkref: "http://smartin41.github.io/NASA-rocket-science.github.io"
 #linkref: "http://nasa-rocket-science.github.io/"
-
