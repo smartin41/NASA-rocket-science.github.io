@@ -4,54 +4,107 @@ title: Learning Center
 base_url: "./"
 ---
 
-<div id="map"><h2>Launch Ranges</h2>
-<iframe src="https://www.google.com/maps/d/embed?mid=zKxor1nYY_5M.kwxe5HjimQZc" width="100%" height="200%"></iframe></div>
-<div id="rocket_manual">
-<h2>Sounding Rocket Users Manual</h2>
-<iframe src="http://docs.google.com/gview?url=http://sites.wff.nasa.gov/code810/files/SRHB.pdf&embedded=true" style="width:600px; height:500px;" frameborder="0"></iframe>
-</div>
+<div class="panel-group" id="accordion">
 
-<h2>PhD degrees granted through the NASA Sounding Rocket Program</h2>
-	<a href="{{ site.linkref }}/learning/phd_alphabetical.html">Alphabetically</a><br>
-	<a href="{{ site.linkref }}/learning/phd_university.html">By University </a><br>
-    <a href="{{ site.linkref }}/learning/phd_year.html">By Year</a> <br>
-    
-<h2>Resources</h2>
-<div class="list-group">
-	<a href="http://www.nasa.gov/mission_pages/sounding-rockets/index.html" 		class="list-group-item">
-		<h4 class="list-group-item-heading"><span class="label label-primary">NASA</span> Sounding Rockets</h4>
-		<p class="list-group-item-text">NASA sounding rocket mission page</p>
-	</a>
-	<a href="http://sites.wff.nasa.gov/code810/about.html" class="list-group-item">
-		<h4 class="list-group-item-heading"><span class="label label-primary">NASA</span> SRPO</h4>
-		<p class="list-group-item-text">NASA Wallops Flight Facility sounding rockets program office</p>
-	</a>
-	<a href="http://www.pfrr.alaska.edu" class="list-group-item">
-		<h4 class="list-group-item-heading">Geophysical Institute, Alaska</h4>
-		<p class="list-group-item-text">Poker Flat Research Range</p>
-	</a>
-	<a href="http://andoyaspace.no" class="list-group-item">
-		<h4 class="list-group-item-heading">Andoya Space Center</h4>
-		<p class="list-group-item-text">Space Center located in Norway that supports rocket and balloon launches</p>
-	</a>
-	<a href="http://www.wsmr.army.mil/Pages/newhome.aspx" class="list-group-item">
-		<h4 class="list-group-item-heading">WSMR</h4>
-		<p class="list-group-item-text">White Sands Missile Range in New Mexico</p>
-	</a>
-	<a href="http://lasp.colorado.edu/home/missions-projects/lasp-rockets/" class="list-group-item">
-		<h4 class="list-group-item-heading">LASP Rocket Program</h4>
-		<p class="list-group-item-text">Laboratory for Atmospheric and Space Physics, Boulder, Colorado</p>
-	</a>
-	<a href="https://en.wikipedia.org/wiki/Sounding_rocket" class="list-group-item">
-		<h4 class="list-group-item-heading">Wikipedia: Sounding Rockets</h4>
-		<p class="list-group-item-text">Wikipedia page on sounding rockets</p>
-	</a>
-	<a href="http://history.nasa.gov/SP-4401/sp4401.htm" class="list-group-item">
-		<h4 class="list-group-item-heading">History of Sounding Rockets (1958-1968)</h4>
-		<p class="list-group-item-text">A NASA publication</p>
-	</a>
-	<a href="http://www.esa.int/esapub/hsr/HSR_38.pdf" class="list-group-item">
-		<h4 class="list-group-item-heading">History of Sounding Rockets</h4>
-		<p class="list-group-item-text">An ESA publication</p>
-	</a>
+  <!-- Launch Ranges -->
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h2 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+              Launch Ranges
+            </a>
+      </h2>
+    </div>
+    <div id="collapseOne" class="panel-collapse collapse">
+      <div class="panel-body">
+				<div id="map"><h2>Launch Ranges</h2>
+					<iframe src="https://www.google.com/maps/d/embed?mid=zKxor1nYY_5M.kwxe5HjimQZc" width="100%" height="200%"></iframe></div>
+			</div>
+		</div>
+
+		<!-- User's Manual -->
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				<h2 class="panel-title">
+							<a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+								User's Manual
+							</a>
+				</h2>
+			</div>
+			<div id="collapseTwo" class="panel-collapse collapse">
+				<div class="panel-body">
+
+<!-- <div id="rocket_manual"> -->
+			<iframe src="http://docs.google.com/gview?url=http://sites.wff.nasa.gov/code810/files/SRHB.pdf&embedded=true" style="width:600px; height:500px;" frameborder="0"></iframe>
+				</div>
+			</div>
+
+			<!-- PhDs -->
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h2 class="panel-title">
+								<a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+									PhD degrees granted through the NASA Sounding Rocket Program
+								</a>
+					</h2>
+				</div>
+				<div id="collapseThree" class="panel-collapse collapse">
+					<div class="panel-body">
+						<a href="{{ site.linkref }}/learning/phd_alphabetical.html">Alphabetically</a><br>
+						<a href="{{ site.linkref }}/learning/phd_university.html">By University </a><br>
+    				<a href="{{ site.linkref }}/learning/phd_year.html">By Year</a> <br>
+					</div>
+				</div>
+
+				<!-- Links -->
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<h2 class="panel-title">
+									<a data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
+										Resources (links)
+									</a>
+						</h2>
+					</div>
+					<div id="collapseFour" class="panel-collapse collapse">
+						<div class="panel-body">
+							<div class="list-group">
+								<a href="http://www.nasa.gov/mission_pages/sounding-rockets/index.html" 		class="list-group-item">
+									<h4 class="list-group-item-heading"><span class="label label-primary">NASA</span> Sounding Rockets</h4>
+									<p class="list-group-item-text">NASA sounding rocket mission page</p>
+								</a>
+								<a href="http://sites.wff.nasa.gov/code810/about.html" class="list-group-item">
+									<h4 class="list-group-item-heading"><span class="label label-primary">NASA</span> SRPO</h4>
+									<p class="list-group-item-text">NASA Wallops Flight Facility sounding rockets program office</p>
+								</a>
+								<a href="http://www.pfrr.alaska.edu" class="list-group-item">
+									<h4 class="list-group-item-heading">Geophysical Institute, Alaska</h4>
+										<p class="list-group-item-text">Poker Flat Research Range</p>
+									</a>
+									<a href="http://andoyaspace.no" class="list-group-item">
+										<h4 class="list-group-item-heading">Andoya Space Center</h4>
+										<p class="list-group-item-text">Space Center located in Norway that supports rocket and balloon launches</p>
+									</a>
+									<a href="http://www.wsmr.army.mil/Pages/newhome.aspx" class="list-group-item">
+										<h4 class="list-group-item-heading">WSMR</h4>
+										<p class="list-group-item-text">White Sands Missile Range in New Mexico</p>
+									</a>
+									<a href="http://lasp.colorado.edu/home/missions-projects/lasp-rockets/" class="list-group-item">
+										<h4 class="list-group-item-heading">LASP Rocket Program</h4>
+										<p class="list-group-item-text">Laboratory for Atmospheric and Space Physics, Boulder, Colorado</p>
+									</a>
+									<a href="https://en.wikipedia.org/wiki/Sounding_rocket" class="list-group-item">
+										<h4 class="list-group-item-heading">Wikipedia: Sounding Rockets</h4>
+										<p class="list-group-item-text">Wikipedia page on sounding rockets</p>
+									</a>
+									<a href="http://history.nasa.gov/SP-4401/sp4401.htm" class="list-group-item">
+										<h4 class="list-group-item-heading">History of Sounding Rockets (1958-1968)</h4>
+										<p class="list-group-item-text">A NASA publication</p>
+									</a>
+									<a href="http://www.esa.int/esapub/hsr/HSR_38.pdf" class="list-group-item">
+										<h4 class="list-group-item-heading">History of Sounding Rockets</h4>
+										<p class="list-group-item-text">An ESA publication</p>
+									</a>
+								</div>
+							</div>
+						</div>
 </div>
