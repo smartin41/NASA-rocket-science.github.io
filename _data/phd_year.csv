@@ -1,5 +1,8 @@
 Recipient,Name,Year,University,Advisor,Program,Rocket1,Rocket2,Rocket3,Rocket4,Rocket5
-402,"Trowbridge Heine, Sarah Nicole",2014,MIT,"Figueroa-Feliciano, Enectali","Micro-X, High-resolution x-ray imaging spectroscopy",36.245,,,,
+405,"Douglas, Ewan",2016,Boston,"Chakrabarti, Supriya","PICTURE-B sounding rocket",36.293
+404,"Danowski, Meredith E.",2016,Boston,"Cook, Timothy","IMAGER sounding rocket",36.260,,,,
+403,"Trowbridge Heine, Sarah Nicole",2014,MIT,"Figueroa-Feliciano, Enectali","Micro-X, High-resolution x-ray imaging spectroscopy",36.245,,,,
+402,"Mendillo, Christopher B.",2013,Boston,"Chakrabarti, Supriya","PICTURE sounding rocket",36.225,,,,
 401,"Rutherford, John Morton",2013,MIT,"Figueroa-Feliciano, Enectali","Micro-X, High-resolution x-ray imaging spectroscopy",36.245,,,,
 400,"Kaeppler, Stephen",2013,Iowa,"Kletzing, Craig",CUSP Electrodynamics,40.018,40.022,40.025,21.139,36.242
 399,"Glesener, Lindsay",2012,"California, Berkeley",Bob Lin / Sam Krucker,Solar Flares (FOXSI),36.255,,,,
@@ -277,7 +280,7 @@ Recipient,Name,Year,University,Advisor,Program,Rocket1,Rocket2,Rocket3,Rocket4,R
 127,"Giles, John W. Jr.",1974,Johns Hopkins,"Moos, Warren",,13.047,,,,
 126,"Gastman, Irvin",1974,Michigan,Carignan,Aeronomy,,,,,
 125,"Doxsey, Rodger",1974,MIT,"Rappaport, Saul",X-ray Astr,,,,,
-124,"Carlson, Charles W.",1974,"California, Berkeley","Carlson, Charles W.",,8.056,18.035,18.036,18.037,
+124,"Carlson, Charles W.",1974,"California, Berkeley","Anderson, Kinsey",,8.056,18.035,18.036,18.037,
 123,"Barrett, J.",1974,Michigan,"Sharp, William E.","Photometrics, Inc.",,,,,
 122,"Shailendra, Kumar",1973,"California, Berkeley","Bowyer, C. S.",Galactic X-ray Astronomy,,,,,
 121,"Schutz, Stephen",1973,"California, Berkeley","Carlson, Charles W.",,8.056,,,,
@@ -339,7 +342,7 @@ Recipient,Name,Year,University,Advisor,Program,Rocket1,Rocket2,Rocket3,Rocket4,R
 65,"Meira, L. GL. Jr.",1970,Colorado,"Barth, Charles A.",Aeronomy,14.389,14.39,,,
 64,"Mayer, William",1970,MIT,"Bradt, Hale",X-ray Astr.,,,,,
 63,"Mack, John",1970,"California, Berkeley","Bowyer, C. S.",Galactic X-ray Astr.,,,,,
-62,"Kelley, Michael",1970,"California, Berkeley","Carlson, Charles W.",,8.056,,,,
+62,"Kelley, Michael",1970,"California, Berkeley","Mozer, Forrest",,8.056,,,,
 61,"Johnstone, Alan",1970,Alaska,"Davis, John M.",Auroral Physics,,,,,
 60,"Huang, Frank",1970,Maryland,Bettinger,Ionospheric Parameters,18.012,,,,
 59,"Coleson, Robert",1970,Southern California,Judge,Earth Day Glow,18.11,,,,
