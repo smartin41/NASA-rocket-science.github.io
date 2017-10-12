@@ -1,13 +1,13 @@
-First,Last,Field,Institution,Role,URL
-Robert,Pfaff, Chair and Project Scientist, NASA/GSFC
-Scott,Porter, Deputy Project Scientist, NASA/GSFC
-Aroh, Barjatya, Geospace, Embry-Riddle Aeronautical University, member
-John, Bonnell, Geospace, Univ. of California Berkeley, member
-James,Clemmons, Geospace, Aerospace Corp.,Member,
-Kevin,France, Astrophysics, Univ. of Colorado,Member,
-Lindsay, Glesener, Solar, Univ. of Minnesota,Member,
-James, LaBelle, Geospace, Dartmouth College,Member,
-Gerald, Lehmacher, Geospace, Clemson University, member
-Stephan, McCandliss, Astrophysics, Johns Hopkins University,Member,
-Randall, McEntaffer, Astrophysics, Penn State University,Member,
-Amy, Winebarger, Solar, NASA/Marshall,Member,
+First,Last,Field,Institution
+Robert, Pfaff, Chair and Project Scientist, NASA/GSFC
+Scott, Porter, Deputy Project Scientist, NASA/GSFC
+Aroh, Barjatya, Geospace, Embry-Riddle Aeronautical University
+John, Bonnell, Geospace, Univ. of California Berkeley
+James,Clemmons, Geospace, Aerospace Corp.
+Kevin,France, Astrophysics, Univ. of Colorado
+Lindsay, Glesener, Solar, Univ. of Minnesota
+James, LaBelle, Geospace, Dartmouth College
+Gerald, Lehmacher, Geospace, Clemson University
+Stephan, McCandliss, Astrophysics, Johns Hopkins University
+Randall, McEntaffer, Astrophysics, Penn State University
+Amy, Winebarger, Solar, NASA/Marshall
