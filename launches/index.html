@@ -16,7 +16,7 @@ base_url: "./"
 {% for launch in site.data.launches_science %}
 <tr>
     <td>{{ launch.LaunchDate }}</td>
-    <td><a href="{{ site.linkref }}/launches/launch_detail.html">{{ launch.Flight }}</a></td>
+    <td>{{ launch.Flight }}</td>
     <td>{{ launch.PIlastname }}</td>
     <td>{{ launch.Institution }}</td>
     <td>{{ launch.Discipline }}</td>
