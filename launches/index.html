@@ -3,22 +3,24 @@ layout: default
 title: NASA Rocket Launches
 base_url: "./"
 ---
-<h1>Launches</h1>
+<h1>Science Launches</h1>
 <table class="table table-striped table-condensed">
 <tr>
     <td>Date</td>
-    <td>ID</td>
+    <td>Flight</td>
     <td>PI</td>
     <td>Institution</td>
-    <td>Name</td>
+    <td>Discipline</td>
+    <td>Purpose</td>
 </tr>
-{% for launch in site.data.launch_data %}
+{% for launch in site.data.launches_science %}
 <tr>
-    <td>{{ launch.Date }}</td>
-    <td><a href="{{ site.linkref }}/launches/launch_detail.html">{{ launch.ID }}</a></td>
-    <td>{{ launch.PI }}</td>
+    <td>{{ launch.LaunchDate }}</td>
+    <td><a href="{{ site.linkref }}/launches/launch_detail.html">{{ launch.Flight }}</a></td>
+    <td>{{ launch.PIlastname }}</td>
     <td>{{ launch.Institution }}</td>
-    <td>{{ launch.Name }}</td>
+    <td>{{ launch.Discipline }}</td>
+    <td>{{ launch.Purpose }}</td>
 </tr>
 {% endfor %}
 </table>
