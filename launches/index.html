@@ -6,8 +6,8 @@ base_url: "./"
 <h1>Science Launches</h1>
 <table class="table table-striped table-condensed">
 <tr>
-    <td>Date</td>
     <td>Flight</td>
+    <td>Date</td>
     <td>PI</td>
     <td>Institution</td>
     <td>Discipline</td>
@@ -15,8 +15,8 @@ base_url: "./"
 </tr>
 {% for launch in site.data.launches_science %}
 <tr>
-    <td>{{ launch.LaunchDate }}</td>
     <td>{{ launch.Flight }}</td>
+    <td>{{ launch.LaunchDate }}</td>
     <td>{{ launch.PIlastname }}</td>
     <td>{{ launch.Institution }}</td>
     <td>{{ launch.Discipline }}</td>
