@@ -8,19 +8,25 @@ base_url: "./"
 <tr>
     <td>Flight</td>
     <td>Date</td>
-    <td>PI</td>
+    <td>Range</td>
+    <td>PIlast</td>
+    <td>PIfirst</td>
     <td>Institution</td>
     <td>Discipline</td>
     <td>Purpose</td>
+    <td>Publications</td>
 </tr>
 {% for launch in site.data.launches_science %}
 <tr>
     <td>{{ launch.Flight }}</td>
     <td>{{ launch.LaunchDate }}</td>
+    <td>{{ launch.Range }}</td>
     <td>{{ launch.PIlastname }}</td>
+    <td>{{ launch.PIfirstname }}</td>
     <td>{{ launch.Institution }}</td>
     <td>{{ launch.Discipline }}</td>
     <td>{{ launch.Purpose }}</td>
+    <td>{{ launch.Publications }}</td>
 </tr>
 {% endfor %}
 </table>
