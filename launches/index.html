@@ -83,6 +83,23 @@ base_url: "./"
       </div>
       <div id="collapseThree" class="panel-collapse collapse">
         <div class="panel-body">
-          <p> Tech flights go here
+        <table class="table table-striped table-condensed">
+          <tr>
+            <td><b>Flight</b></td>
+            <td><b>Date</b></td>
+            <td><b>Range</b></td>
+            <td><b>PI</b></td>
+            <td><b>Purpose</b></td>
+          </tr>
+          {% for launch in site.data.launches_technology %}
+          <tr>
+            <td>{{ launch.Flight }}</td>
+            <td>{{ launch.LaunchDate }}</td>
+            <td>{{ launch.Range }}</td>
+            <td>{{ launch.PIlastname}}</td>
+            <td>{{ launch.Purpose }}</td>
+          </tr>
+          {% endfor %}
+        </table>
         </div>
       </div>
