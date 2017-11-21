@@ -1,3 +1,12 @@
+---
+layout: default
+title: Publications
+base_url: "./"
+---
+
+
+
+
 Journal Articles
 ---
 
