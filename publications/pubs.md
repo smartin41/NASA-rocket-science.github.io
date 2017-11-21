@@ -1,25 +1,21 @@
 Journal Articles
 ---
 
-{:.year}
 ### 2014
 
-{:.paper}
-<span>Pervasive Faint Fe XIX Emission from a Solar Active Region Observed with EUNIS-13: Evidence for Nanoflare Heating</span>{:.papertitle}  
-<span>J. Brosius, A. Daw, and D. Rabin</span>{:.authors}  
-<span>_\apj_, vol. 790, pp. 112, Aug. 2014</span>{:.journal}  
-<span>**DOI:** [10.1088/0004-637X/790/2/112](https://dx.doi.org/10.1088/0004-637X/790/2/112)</span>{:.doi}  
+<span>Pervasive Faint Fe XIX Emission from a Solar Active Region Observed with EUNIS-13: Evidence for Nanoflare Heating</span>
+<span>J. Brosius, A. Daw, and D. Rabin</span>
+<span>_\apj_, vol. 790, pp. 112, Aug. 2014</span>
+<span>**DOI:** [10.1088/0004-637X/790/2/112](https://dx.doi.org/10.1088/0004-637X/790/2/112)</span>  
 
-{:.year}
 ### 2010
 
-{:.paper}
-<span>Absolute Radiometric Calibration of the EUNIS-06 170-205 Å Channel and Calibration Update for Coronal Diagnostic Spectrometer/Normal-Incidence Spectrometer</span>{:.papertitle}  
-<span>T. Wang, J. Brosius, R. Thomas, D. Rabin, and J. Davila</span>{:.authors}  
-<span>_\apjs_, vol. 186, pp. 222-232, Feb. 2010</span>{:.journal}  
-<span>**DOI:** [10.1088/0067-0049/186/2/222](https://dx.doi.org/10.1088/0067-0049/186/2/222)</span>{:.doi}  
 
-{:.year}
+<span>Absolute Radiometric Calibration of the EUNIS-06 170-205 Å Channel and Calibration Update for Coronal Diagnostic Spectrometer/Normal-Incidence Spectrometer</span>
+<span>T. Wang, J. Brosius, R. Thomas, D. Rabin, and J. Davila</span>
+<span>_\apjs_, vol. 186, pp. 222-232, Feb. 2010</span>
+<span>**DOI:** [10.1088/0067-0049/186/2/222](https://dx.doi.org/10.1088/0067-0049/186/2/222)</span>  
+
 ### 2008
 
 {:.paper}
