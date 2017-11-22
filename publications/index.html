@@ -12,16 +12,17 @@ base_url: "./"
        <h2 class="panel-title">
            <a data-toggle="collapse" data-parent="#accordion"
 href="#collapseOne">
-        Publications
+        Science Publications
          </a>
          </h2>
      </div>
      <div id="collapseOne" class="panel-collapse collapse">
        <div class="panel-body">
           {% for pub in site.data.SR-pubs-compilation %}
-          <p>{{ pub.Authors }} ({{ pub.Date}}),
+          <p>{{ pub.Authors }}, <b>{{ pub.Date}}</b>,
             <a href="{{ pub.Link}}">{{ pub.Title}} </a>,
-            <i>{{ pub.Journal}}</i> {{ pub.Reference}}, DOI:{{ pub.DOI}}.
+            <i>{{ pub.Journal}}</i>, {{ pub.Reference}}, DOI:{{ pub.DOI}},
+            flight: <b>{{ pub.Flight}}</b>.
           </p>
           {% endfor %}
        </div>
