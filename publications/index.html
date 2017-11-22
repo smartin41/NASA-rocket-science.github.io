@@ -18,31 +18,11 @@ href="#collapseOne">
      </div>
      <div id="collapseOne" class="panel-collapse collapse">
        <div class="panel-body">
-        <table class="table table-striped table-condensed">
-          <tr>
-            <td><b>Authors</b></td>
-            <td><b>Date</b></td>
-            <td><b>Title</b></td>
-            <td><b>Flight</b></td>
-            <td><b>Journal</b></td>
-            <td><b>Reference</b></td>
-            <td><b>DOI</b></td>
-            <td><b>Link</b></td>
-          </tr>
           {% for pub in site.data.SR-pubs-compilation %}
-          <tr>
-            <td>{{ pub.Authors }}</td>
-            <td>{{ pub.Date}}</td>
-            <td>{{ pub.Title}}</td>
-            <td>{{ pub.Flight}}</td>
-            <td>{{ pub.Journal}}</td>
-            <td>{{ pub.Reference}}</td>
-            <td>{{ pub.DOI}}</td>
-            <td>{{ pub.Link}}</td>
-          </tr>
+          <p>{{ pub.Authors }} ({{ pub.Date}}),<b>{{ pub.Title}}</b>, {{ pub.Flight}}, <i>{{ pub.Journal}}</i> {{ pub.Reference}}, DOI:{{ pub.DOI}},
+            <a href="{{ pub.Link}}"</a></p>
+            <br>
           {% endfor %}
-        </table>
-
        </div>
      </div>
    </div>
