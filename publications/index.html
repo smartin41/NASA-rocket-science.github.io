@@ -19,9 +19,11 @@ href="#collapseOne">
      <div id="collapseOne" class="panel-collapse collapse">
        <div class="panel-body">
           {% for pub in site.data.SR-pubs-compilation %}
-          <p>{{ pub.Authors }} ({{ pub.Date}}),<b>{{ pub.Title}}</b>, {{ pub.Flight}}, <i>{{ pub.Journal}}</i> {{ pub.Reference}}, DOI:{{ pub.DOI}},
-            <a href="{{ pub.Link}}"</a></p>
-            <br>
+          <p>{{ pub.Authors }} ({{ pub.Date}}),
+            <a href="{{ pub.Link}}">{{ pub.Title}} </a>,
+            <i>{{ pub.Journal}}</i> {{ pub.Reference}}, DOI:{{ pub.DOI}},
+          </p>
+          <br>
           {% endfor %}
        </div>
      </div>
