@@ -13,13 +13,12 @@ base_url: "./"
            <a data-toggle="collapse" data-parent="#accordion"
 href="#collapseOne">
         Science Publications
-        <br>
-        <i>Last updated: January 5, 2018</i>
          </a>
        </h3>
      </div>
      <div id="collapseOne" class="panel-collapse collapse">
        <div class="panel-body">
+          <i>Last updated: January 5, 2018</i>
           {% for pub in site.data.SR-pubs-compilation %}
           <p>{{ pub.Authors }}, <b>{{ pub.Date}}</b>,
             <a href="{{ pub.Link}}">{{ pub.Title}} </a>,
