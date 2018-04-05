@@ -10,12 +10,12 @@ base_url: "./"
   <div class="panel panel-default">
     <div class="panel-heading">
       <h3 class="panel-title">
-            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+            <a data-toggle="collapse" data-parent="#accordion" href="#meetings">
               Past Meeting Agenda and Findings
             </a>
           </h3>
     </div>
-    <div id="collapseOne" class="panel-collapse collapse">
+    <div id="meetings" class="panel-collapse collapse">
       <div class="panel-body">
 {% for meeting in site.data.srwg_meetings %}
 <div class="btn-group">
@@ -37,12 +37,12 @@ base_url: "./"
       <div class="panel-heading">
         <h3 class="panel-title">
             <a data-toggle="collapse" data-parent="#accordion"
-href="#collapseTwo">
+href="#charter">
               The Sounding Rocket Working Group Charter
             </a>
           </h3>
       </div>
-      <div id="collapseTwo" class="panel-collapse collapse">
+      <div id="charter" class="panel-collapse collapse">
         <div class="panel-body">
 	<font face="Arial, Helvetica, sans-serif" size="3">
 	<b>Purpose</b>
@@ -96,12 +96,12 @@ href="#collapseTwo">
       <div class="panel-heading">
         <h3 class="panel-title">
             <a data-toggle="collapse" data-parent="#accordion"
-href="#collapseThree">
+href="#members">
               Committee Members
             </a>
           </h3>
       </div>
-      <div id="collapseThree" class="panel-collapse collapse">
+      <div id="members" class="panel-collapse collapse">
         <div class="panel-body">
 <ul>
 {% for member in site.data.srwg_members %}
